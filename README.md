@@ -1,5 +1,7 @@
 # HR ANALYTICS IN POWER-BI
 ## Introduction 
+
+![](6 tables.png)
 The core goal of this case study is to build a report using fictitious datasets from a Tech company called Atlas Labs. Atlas Labs HR team wants to be able to monitor key metrics on employees and their secondary goal is to understand what factors impact employee attrition.
 LOADING CSVs FILES
 
@@ -14,7 +16,7 @@ The Dataset contains Fact table and Dimension tables
 
 The Fact table stores the Performance Ratings. This table contains information about employee’s yearly reviews and helps Atlas Labs manage their employee’s performance on a regular basis. It contains 11 different columns and 6709 rows per employee. While the Dimension table enables us to provide more context to the data - the who, what, when, where, and why. We have 4-dimension tables that we will be working with: Employee, EducationLevel, RatingLevel, SatisfiedLevel, and we will be creating the date table for our future analysis and it will contain detailed information such as year, quarter, month, and day. Altogether we will be working with 5-dimension table and 1 fact table.
 
-![](6 tables.png)
+![](image.jpg)
 
 
 Calculated Date Table using DAX code:
